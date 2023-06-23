@@ -1,0 +1,17 @@
+1. 10 sieci
+puszczam batch, hmN 30, close loop false, rate 0.5, hmSamples=None,
+jeden dodatkowy spike w 0,  dt = 0.01, start = 10, 
+target mse spike = 0.005, hmEpochs = 500
+
+w pętli zamkniętej do dupy
+
+2. zmieniam na hmN 25 neuronów i puszczam od nowa do target mse spike = 0.005
+1 na 10 nie zbiegł w 500 epok, odp niektórych ładne, innych słabe
+
+3. puszczam dalej do 0.003
+1 na 10 nie zbiegł w 1000 epok całościowych, 
+odp. słabe, jedna dobra, jedna znośna, reszta dupa
+
+4. puszczam dalej do 0.002
+odp sie licza
+

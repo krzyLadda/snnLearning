@@ -1,0 +1,56 @@
+1. hmEpochs 1000, dt 0.01, rate 0.05
+nie zbiegło, słabo, rozstrzał na końcu 
+
+2. rate 0.01, dt 0.01, 
+3 +250 epok
+4.+250 epok,  zmieniam rate na 0.005
+5. +250, rate 0.001
+
+v2:
+PRZEBIEG 0:
+1. hmEpochs 1000, dt 0.01, rate 0.01
+2. + 500 epok, rate 0.005
+3. hmEpochs 1000, dt 0.01, rate 0.01
+4. kontyunajca 2, +500 epok. rate 0.0001
+
+5. hm epochs 400. dt 0.01, rate 0.05, na jednym dniu, hmN 100
+6. + 100 epok do 5, osiągnieto mse spike target
+
+PRZEBIEG 1:
+1. hm epochs 500. dt 0.01, rate 0.05, na jednym dniu, hmN 100
+2. +300 epok do 1. osiągnieto mse spike target
+
+
+
+
+6 wyjsc
+1. wszystkie targety, hmN 100, epok 250, rate 0.05, target mse spike 0.25, 1 dzien,
+2. + 100, 
+    słabo
+3. 1 + rate 0.01, 100 epok, razem 350 epok
+4. +100 epok powolny postęp, razem 450 
+5. +100
+6. +100
+7. +100
+8.+100
+9. +100
+10. +100
+11. +100 rate 0.005
+12. +100
+13. +100 razem 1350 epok
+14. +100, rate 0.0075
+
+6 wyjsc v2:
+2. 1+ 100, rate 0.025
+3. +100
+4. +50 epok, rate 0.035,
+5. +50 epok, rate 0.025
+6. +25 epok, rate 0.01
+7. +25
+8. +100
+9. +100
+10. +100
+11. +100 rate 0.01
+
+v3 
+1. hmN 300, epok 100, rate 0.1

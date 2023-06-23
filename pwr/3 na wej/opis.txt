@@ -1,0 +1,3 @@
+1. hmn 25, delay set k1, rate 0.1, taget mse 0.005, 3 na wej
+
+2. puszczam dalej do 0.003 z rate 0.05

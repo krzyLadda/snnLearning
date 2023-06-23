@@ -1,0 +1,37 @@
+2 na wejscie, jedno w 0 i jedno w połowie czasu wejść!
+
+
+1. hmN 25, K1, rate 0.05, target MSE spikes 0.005, hmEpochs 500
+odp ok
+
+3. puszczam 1 dalej do 0.003
+
+
+
+2. to samo co 1, ale rate = 0.1
+
+4. puszczam 2 dalej do 0.003
+
+6. puszczam 4 dalej do 0.002
+
+8. puszczam 6 dalej do 0.001
+
+10. puszczam 8 dalej do 0.001, zmieniam rate z 0.1, na 0.05 i max epok na 200
+nie polepszyło wartości mse w uczeniu
+
+12. puszczam dalej 10, do 0.0015, max epok 500, zmieniam rate na 0.01
+wszystkie odbiły na wyższe mse                      NA RAZIE WYGYRYWA
+
+14. puszczam 12 dalej, max epok 200, rate 0.01  
+poprawa
+
+14v2. puszczam 14 dalej, max 200 epok, rate 0.01
+
+
+16. puszczm 14 dalej, max 200 epok, zmieniam target mse na 0.001 i rate na 0.1, 
+brak poprawy
+
+
+10 dalej1. puszczam 10 dalej na 500 epok z rate 0.1
+
+

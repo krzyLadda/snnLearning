@@ -1,0 +1,24 @@
+1. jedna sieć,
+puszczam onlnie in minibatches, hmN 30, close loop true, rate 0.175, hmSamples=None,
+jeden dodatkowy spike w 0,  dt = 0.01, start = 10, 
+target mse spike = 0.005, hmEpochs = 500
+
+zbiegło w 332 epoki, odpowiedzi pętli zamkniętej są ok,
+
+2. puszczam 10 sieci z takimi samymi parametrami jak wyzej
+nie zawsze zbiegło w 500 epok, ale odp. w pętli zamkniętej są ok
+
+3. puszczam 2 dalej do 0.003
+2 z 10 nie zbiegły w max epok
+wyniki pętli zamkniętej słabe
+
+4. zmieniam z hmN 30 na 25 i puszczam od nowa dla 0.005
+NICE, wszystkie odp w pętli zamkniętej są w miarę ok, żadna nie jest do dupy
+wszystkie zbiegły w mniej niż 500 epok
+
+5. puszczam 4 dalej do 0.003
+zbiegło + - + + + - - + - +, zbiegło 6/10
+odp są w miarę ok, wszystkie starają się, ale szału nie ma
+
+6. puszczam 5 dalej do 0.0025
+
